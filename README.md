@@ -45,3 +45,22 @@ DenseNet (Densely Connected Convolutional Networks) :
 
 ## Comment Utiliser
 1. **Installation des Dépendances**
+
+
+2. **Entraînement du Modèle**
+- Les fonctions sont definis dans le modèle
+
+
+3. **Prédictions sur le Jeu de Données de Test**
+- Exécutez la foction les lignes de codes defini dans le fichier .Projet_GUINDO_HUSSEN_HUGUES_JUNIOR pour faire des prédictions.
+
+
+4. **Exploration des Résultats**
+- Consultez le fichier `predictions2.csv` pour les résultats de la prédiction.
+
+## Ressources Supplémentaires
+- [EfficientNet PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch)
+- [Albumentations](https://albumentations.ai/)
+
+## Auteur
+Guindo Hussen Hugues Junior
