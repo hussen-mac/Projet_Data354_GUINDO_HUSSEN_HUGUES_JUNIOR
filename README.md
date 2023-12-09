@@ -78,7 +78,7 @@ On choisira le modele qui minimisera le critère suivant 'Average Validation Los
 
 ## Ressources Supplémentaires
 - [PyTorch](https://pytorch.org/tutorials/)
-- - [PyTorch2](https://towardsdatascience.com understanding-pytorch-with-an-example-a-step-by-)
+- [PyTorch2](https://towardsdatascience.com understanding-pytorch-with-an-example-a-step-by-)
 - [Albumentations](https://albumentations.ai/)
 
 ## Auteur
