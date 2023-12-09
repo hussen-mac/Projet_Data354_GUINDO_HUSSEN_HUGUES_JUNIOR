@@ -1,0 +1,2 @@
+# Projet_Data354_GUINDO_HUSSEN_HUGUES_JUNIOR
+ Microsoft Rice Disease Classification Challenge
