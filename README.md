@@ -1,7 +1,7 @@
 # Projet_Data354_GUINDO_HUSSEN_HUGUES_JUNIOR
  Microsoft Rice Disease Classification Challenge
 
-# Classification des maladies du riz - Projet 
+# Classification des Images de riz - Projet 
 
 ## Introduction
 Ce projet vise à développer un modèle de classification des maladies du riz en utilisant des réseaux de neurones profonds. Le jeu de données provient d'un concours Microsoft et contient des images de feuilles de riz présentant pour certaines une maladie  maladie.
