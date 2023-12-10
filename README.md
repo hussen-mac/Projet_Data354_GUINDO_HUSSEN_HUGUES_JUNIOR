@@ -71,6 +71,7 @@ On choisira le modele qui minimisera le critère suivant 'Average Validation Los
 8. **Exploration des Résultats**
 - Consultez le fichier `predictions2.csv` pour les résultats de la prédiction.
 
+## **La capture de la soumission sur Zindi réprésente plusieurs modèles que nous avons eu à soumettre sur la plateforme pour evaluer les performances en fonction des modèles. Il en ressort que le modèle DenseNet et EfficientNet nous fournissent des résultats plus ou moins satisfaisants comparativement aux trois modèles** 
 
 ## Environnement et Dépendances
 - Python 3.x
