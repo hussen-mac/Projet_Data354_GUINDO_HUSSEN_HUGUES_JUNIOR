@@ -21,7 +21,10 @@ Ce projet vise à développer un modèle de classification des maladies du riz e
    - `Test.csv`: Fichier CSV contenant les données de test.
    - `Images/`: Répertoire contenant les images.
 
-3. **Modèles**
+3. **Méthode de réechantillonnage** :
+   - Validation croisée 5 blocs
+
+4. **Modèles**
    Définition des architectures de modèle utilisés: 
 
 ### EfficientNet :
@@ -42,14 +45,14 @@ Ce projet vise à développer un modèle de classification des maladies du riz e
 On choisira le modele qui minimisera le critère suivant 'Average Validation Loss Across Folds' qui se réfère à la moyenne des pertes de validation sur plusieurs plis (folds) lors de l'évaluation d'un modèle d'apprentissage automatique.
 
 
-4. **Entraînement des Modèles** 
+5. **Entraînement des Modèles** 
  Les modèles sont entraînés sur plusieurs plis en utilisant la validation croisée. L'arrêt anticipé est mis en place pour éviter un surapprentissage.
 
 
-5. **Résultats**
+6. **Résultats**
    - `predictions.csv`: Fichier CSV contenant les prédictions sur le jeu de données de test.
 
-6. **Entraînement du Modèle**
+7. **Entraînement du Modèle**
 - Les fonctions utilisées sont : 
    * **verifier_correspondances** : Vérifie si les images dans dont les Id sont dans le jeu de donnees Test et Train sont bien dans le repertoire image 
 
@@ -64,11 +67,11 @@ On choisira le modele qui minimisera le critère suivant 'Average Validation Los
    * **train_fn** : Fonction d'entraînement utilisant la précision mixte (AMP)
  
 
-7. **Prédictions sur le Jeu de Données de Test**
+8. **Prédictions sur le Jeu de Données de Test**
 - Exécutez les lignes de codes defini dans le fichier Projet_GUINDO_HUSSEN_HUGUES_JUNIOR pour faire des prédictions.
 
 
-8. **Exploration des Résultats**
+9. **Exploration des Résultats**
 - Consultez le fichier `predictions2.csv` pour les résultats de la prédiction.
 
 **La capture de la soumission sur Zindi réprésente plusieurs modèles que nous avons eu à soumettre sur la plateforme pour evaluer les performances en fonction des modèles. Il en ressort que le modèle DenseNet et EfficientNet nous fournissent des résultats plus ou moins satisfaisants comparativement aux trois modèles** 
