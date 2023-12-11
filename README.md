@@ -8,7 +8,7 @@ Ce projet vise à développer un modèle de classification des maladies du riz e
 
 ## Structure du Projet
 
-
+## ok
 ### Notebooks : 
    Vous trouverez ici un notebooks Jupyter utilisé pour le développement, l'entraînement et l'évaluation de modèles.
 
